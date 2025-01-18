@@ -16,8 +16,8 @@ def remove_page(input_pdf, output_pdf, page_number):
             writer.write(outfile)
 
 # Example usage to remove the last page
-input_pdf = 'D:\\Downloads\\Huda & Adil.pdf'
-output_pdf = 'D:\\Downloads\\Huda & Adil - updated.pdf'
+input_pdf = 'D:\\Downloads\\input.pdf'
+output_pdf = 'D:\\Downloads\\input - updated.pdf'
 
 with open(input_pdf, 'rb') as infile:
     reader = PyPDF2.PdfReader(infile)
